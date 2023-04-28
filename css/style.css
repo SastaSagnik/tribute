@@ -1,0 +1,152 @@
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH69aBS9AfF9GRwlG0kNrpkLhGEkv5RdXJOw&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navigation{
+    display: flex;
+    background-color: black;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 66;
+}
+
+#navigation ul li{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    margin: 12px 12px;
+    padding: 22px 22px;
+    
+}
+
+#navigation ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 22px 22px;
+}
+
+#navigation ul{
+    overflow: auto;
+}
+
+#navigation ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 22px 22px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#sign{
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    color: white;
+    list-style: none;
+}
+
+#sign:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.para{
+    color: white;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+}
+.paras{
+    color: white;
+
+    margin: auto;
+    text-align: center;
+    background-color:cornflowerblue;
+}
+
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 30px;
+    margin: 50px;
+    border: 3px solid gainsboro;
+}
+
+#me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 30px;
+    border: 3px solid gainsboro;
+    margin: 50px;
+}
+
+#SER{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 30px;
+    border: 3px solid gainsboro;
+    margin: 50px;
+}
+
+#don{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 30px;
+    border: 3px solid gainsboro;
+    margin: 50px;
+}
+
+.paras input{
+    width: 300px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.paras button{
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+.paras button:hover{
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(125, 125, 125);
+    cursor: pointer;
+}
+
+#sub{
+    margin: 10px;
+    padding: 10px;
+}
